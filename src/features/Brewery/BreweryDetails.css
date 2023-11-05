@@ -1,0 +1,25 @@
+/* Add this CSS to your stylesheets or styled-components */
+body {
+  background-color: #ededed;
+}
+/* Styles for the details card */
+.details-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+  text-align: left;
+  max-width: 90%;
+  margin: 50px auto;
+}
+
+/* Style for the brewery name */
+
+/* Style for other details */
+.details-card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Add more specific styles for other elements as needed */
