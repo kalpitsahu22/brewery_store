@@ -61,6 +61,7 @@ function BrewerySearch() {
           onChange={(e) => setFilterCriteria(e.target.value)}
           className="filter-select"
         >
+          <option value=" ">Select Filter</option>
           <option value="by_name">Name</option>
           <option value="by_city">City</option>
         </select>

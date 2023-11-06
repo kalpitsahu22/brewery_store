@@ -2,6 +2,7 @@ import { Navigate, useNavigate, useParams } from "react-router-dom";
 import { useBrewery } from "../authentication/useBrewery";
 import Spinner from "../../ui/Spinner";
 import "./BreweryDetails.css";
+import StarRating from "../../ui/StarRating";
 
 function BreweryDetails() {
   const navigate = useNavigate();
@@ -72,6 +73,7 @@ function BreweryDetails() {
         </strong>{" "}
         {brewery?.postal_code}
       </p>
+
       <p>
         <strong
           style={{
@@ -80,7 +82,9 @@ function BreweryDetails() {
         >
           Website :
         </strong>{" "}
+        {brewery?.website_url}
       </p>
+      <StarRating />
       <button
         style={{
           fontSize: "18px",
